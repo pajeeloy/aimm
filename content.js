@@ -1,26 +1,17 @@
-// content.js
-
 (function() {
-    // Define the replaceText function
+
     function replaceText(textNode) {
         let text = textNode.nodeValue;
 
-        // Replace "GenAI" with "Generative Matrix Multiplication" (ignore case)
         text = text.replace(/GenAI/gi, "Generative Matrix Multiplication");
 
-        // Replace "Artificial Intelligence" with "Matrix Multiplication" (ignore case)
         text = text.replace(/Artificial Intelligence/gi, "Matrix Multiplication");
 
-        // Replace "AI" with "Matrix Multiplication" (ignore case, whole word)
         text = text.replace(/\bAI\b/gi, "Matrix Multiplication");
-
-        // Replace "OpenAI" with "Matrix Multiplication" (ignore case, whole word)
-        text = text.replace(/OpenAI/gi, "Open Matrix Multiplication");
 
         textNode.nodeValue = text;
     }
 
-    // Define the walk function
     function walk(node) {
         let child, next;
 
