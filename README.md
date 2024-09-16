@@ -1,11 +1,11 @@
 # AIMM: AI as also known as Matrix Multiplication.
 
-Because sometimes "Artificial Intelligence" is just fancy talk for good old math.
+Because sometimes "Artificial Intelligence" is just a fancy talk for a good old math.
 
 
 ## What Does It Do?
 
-Reveals every mention of "Artificial Intelligence" and reminds reader what is that really is.
+Reveals every mention of "Artificial Intelligence" and reminds reader what that really is.
 
 ## Installation
 
